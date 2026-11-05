@@ -16,12 +16,14 @@ icon.png            アプリと同じアイコン
 ## 公開する前にやること
 
 **連絡先メールアドレスを作る。** いま `support/` と `privacy/` に書いてある
-`omae100ten.app.support@gmail.com` はまだ存在しない。
-ポモテクと同じようにアプリ専用のGmailを取得するか、別の宛先に書き換える。
-個人のメールアドレスをそのまま載せると公開先から拾われるので避けたほうがいい。
+`moderate.app.support@gmail.com` はまだ存在しない。
+
+アプリ名ではなく公開名義（Moderate）で取ってあるので、今後出すアプリでも
+そのまま使い回せる。個人のメールアドレスをそのまま載せると公開先から
+拾われるので避けたほうがいい。
 
 ```
-grep -rn "omae100ten.app.support@gmail.com" .
+grep -rn "moderate.app.support@gmail.com" .
 ```
 
 ## ローカルで見る
