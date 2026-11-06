@@ -13,14 +13,13 @@ styles.css
 icon.png            アプリと同じアイコン
 ```
 
-## 公開する前にやること
+## 連絡先
 
-**連絡先メールアドレスを作る。** いま `support/` と `privacy/` に書いてある
-`moderate.app.support@gmail.com` はまだ存在しない。
+`support/` と `privacy/` に `moderate.app.support@gmail.com` を載せている。
+取得済み。アプリ名ではなく公開名義（Moderate）で取ってあるので、今後出す
+アプリでもそのまま使い回せる。
 
-アプリ名ではなく公開名義（Moderate）で取ってあるので、今後出すアプリでも
-そのまま使い回せる。個人のメールアドレスをそのまま載せると公開先から
-拾われるので避けたほうがいい。
+宛先を変えるときはこの2ファイルを書き換える。
 
 ```
 grep -rn "moderate.app.support@gmail.com" .
